@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.list-card {
+  background-color: #ffffff;
+  list-style-type: none;
+  padding: 15px;
+  width: 29%;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+@media screen and (max-width: 567px) {
+  .list-card {
+    width: 95%;
+  }
+}
+
+.recent-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-card {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #171f46;
+}
+
+.star-img-btn {
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.star-img {
+  margin: 0px;
+}
+
+.date {
+  color: #b5b7c4;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}

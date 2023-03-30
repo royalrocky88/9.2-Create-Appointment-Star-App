@@ -1,0 +1,167 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.card-container {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  background-color: #ffffff;
+  height: 80%;
+  width: 95%;
+  max-width: 1200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .card-container {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: auto;
+  }
+}
+
+.form-img-container {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  font-family: roboto;
+}
+
+@media screen and (max-width: 576px) {
+  .form-img-container {
+    justify-content: center;
+    width: 99%;
+  }
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .form-card {
+    width: 99%;
+  }
+}
+
+.heading-card {
+  color: #171f46;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .heading-card {
+    font-size: 30px;
+  }
+}
+
+.label-card {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #171f46;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input-card {
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1%;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 4%;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.appoint-img {
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .appoint-img {
+    display: none;
+  }
+}
+
+.line-card {
+  border: 2px solid;
+  width: 90%;
+}
+
+.star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  height: auto;
+  margin-top: 1%;
+}
+
+.head-text {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.star-btn {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 40px;
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  color: #8b5cf6;
+  border: 1px solid #9897f0;
+}
+
+.appoint-list-container {
+  padding: 0px;
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 567px) {
+  .appoint-list-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
